@@ -2694,6 +2694,15 @@ input, select, textarea {
 			max-width: 48em;
 			width: 60%;
 		}
+		.spotlight .content1 {
+			padding: 2em 4em 0.1em 30em ;
+			-moz-order: 2;
+			-webkit-order: 2;
+			-ms-order: 2;
+			order: 2;
+			max-width: 48em;
+			width: 60%;
+		}
 
 		.spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
@@ -2751,6 +2760,9 @@ input, select, textarea {
 			.spotlight .content {
 				width: 55%;
 			}
+			.spotlight .content1 {
+			padding: 2em 4em 0.1em 10em ;
+		}
 
 		}
 
